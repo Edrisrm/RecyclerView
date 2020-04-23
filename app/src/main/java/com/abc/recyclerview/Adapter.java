@@ -12,6 +12,7 @@ public class Adapter extends RecyclerView.Adapter<ViewHolder> {
     private List<Source> sourceList;
 
     public Adapter(List<Source> sourceList) {
+
         this.sourceList = sourceList;
     }
 
